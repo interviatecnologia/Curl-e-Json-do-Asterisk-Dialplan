@@ -41,6 +41,7 @@ O código acima emitirá uma requisição para o arquivo test.txt, e dependendo 
 
 Usando res_json no Asterisk Dialplan para processar uma string JSON
 É bem comum que APIs retornem um payload JSON, e podemos usar res_json em nosso dialplan para analisar o conteúdo que obtemos como resultado de uma solicitação HTTP e agir de acordo. Isso pode ser obtido compilando e instalando res_json de acordo com as instruções ( https://github.com/drivefast/asterisk-res_json ) e, em seguida, a partir do dialplan:
+Documento adicional para instalação e compilação: https://hotkey404.com/asterisk-16-install-from-source/
 
 exten => _X.,1,Set(CURL_RESULT=${CURL(http://domain.com/test.json)})
 same => n,Set(result=${JSONELEMENT(CURL_RESULT,result/subfield)})
