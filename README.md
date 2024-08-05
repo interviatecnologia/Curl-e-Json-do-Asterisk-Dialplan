@@ -1,9 +1,7 @@
 CONTEUDO ORIGINAL OBTIDO DE:
 
-https://marcelog.github.io/articles/asterisk_json_curl_dialplan.html
-
-https://github.com/drivefast/asterisk-res_json
-
+https://marcelog.github.io/articles/asterisk_json_curl_dialplan.html  
+https://github.com/drivefast/asterisk-res_json  
 https://gist.github.com/swchris
 
 Com anotações e adequações especificas para projetos da intervia 
@@ -57,13 +55,16 @@ same => n(result1),Verbose(Result 1)
 
 view rawextensions.conf hosted with ❤ by GitHub  
 
-Podemos testar isso tendo o seguinte conteúdo para test.json :
+Podemos testar isso tendo o seguinte conteúdo para test.json :  
 
-{
-  "result": {
-    "subfield": 1
-  }
-}
-view rawtest.json hosted with ❤ by GitHub
+
+{  
+    "result": {  
+    "subfield": 1  
+    }  
+}  
+
+view rawtest.json hosted with ❤ by GitHub  
+
 Conclusão
 Sem muito esforço, agora podemos chamar APIs HTTP que retornam texto simples ou strings JSON e processá-las em nossos dialplans Asterisk para tomar decisões. Aproveite!
