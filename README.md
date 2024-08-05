@@ -18,8 +18,8 @@ Neste artigo, veremos como podemos usar o cURL para consultar um serviço HTTP e
 Usando cURL para consultar uma API HTTP do Asterisk Dialplan
 O Asterisk tem a função dialplan CURL que pode ser usada para emitir solicitações HTTP do dialplan.
 
-exten => _X.,1,Set(CURL_RESULT=${CURL(http://domain.com/test.txt)})
-view rawextensions.conf hosted with ❤ by GitHub
+exten => _X.,1,Set(CURL_RESULT=${CURL(http://domain.com/test.txt)}) view rawextensions.conf hosted with ❤ by GitHub
+
 Uma vez feita a solicitação, podemos acessar o resultado (o corpo da solicitação) na variável CURL_RESULT , usando o dialplan Set Application para definir o valor da variável .
 
 Usando HTTPS para consultar APIs REST do dialplan
