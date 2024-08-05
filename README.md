@@ -1,6 +1,9 @@
 CONTEUDO ORIGINAL OBTIDO DE:
+
 https://marcelog.github.io/articles/asterisk_json_curl_dialplan.html
+
 https://github.com/drivefast/asterisk-res_json
+
 https://gist.github.com/swchris
 
 Com anotações e adequações especificas para projetos da intervia 
